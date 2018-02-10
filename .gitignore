@@ -1,0 +1,27 @@
+# ignore the MAVEN target directory and others that should not be put in the repository. Be sure not to have target as a java package or file name.
+
+# Maven
+target/
+database/
+log/
+
+# Mac
+.DS_Store
+
+# General
+*.class
+*.jar
+*.war
+*.ear
+*.logs
+
+# IntelliJ
+*.iws
+*.iml
+.idea/
+
+# Exlipse
+.eclipse
+.classpath
+.project
+.settings/
